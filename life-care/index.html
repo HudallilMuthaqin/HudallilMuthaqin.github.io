@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- Site Metas -->
+   <title>HRLife Care </title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Colors CSS -->
+   <link rel="stylesheet" href="css/colors.css">
+   <!-- ALL VERSION CSS -->
+   <link rel="stylesheet" href="css/versions.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/custom.css">
+   <!-- Modernizer for Portfolio -->
+   <script src="js/modernizer.js"></script>
+   <!-- [if lt IE 9] -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+   <link rel="stylesheet" href="style2.css">
+
+   </head>
+   <body class="clinic_version">
+      <!-- LOADER -->
+      <div id="preloader">
+         <img class="preloader" src="images/loaders/heart-loading2.gif" alt="">
+      </div>
+      <!-- END LOADER -->
+      <header>
+         <div class="header-top wow fadeIn">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+               <div class="right-header">
+                  <div class="header-info">
+                     <div class="info-inner">
+                        <span class="icontop"><img src="images/phone-icon.png" alt="#"></span>
+                        <span class="iconcont"><a href="tel:800 123 456">(021)-7884-9047</a></span>	
+                     </div>
+                     <div class="info-inner">
+                        <span class="icontop"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span class="iconcont"><a data-scroll href="mailto:info@yoursite.com">info@HRLifecare.com</a></span>	
+                     </div>
+                     <div class="info-inner">
+                        <span class="icontop"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                        <span class="iconcont"><a data-scroll href="#">24 Hours</a></span>	
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header-bottom wow fadeIn">
+            <div class="container">
+               <nav class="main-menu">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                  </div>
+				  
+                  <div id="navbar" class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav">
+                        <li><a data-scroll href="index.html">Home</a></li>
+                        <li><a data-scroll href="#about">About us</a></li>
+                        <li><a data-scroll href="#service">Services</a></li>
+                        <li><a data-scroll href="#doctors">Doctors</a></li>
+                         <li><a data-scroll href="#Book" type="button" class="btn btn-btn-default" data-toggle="modal" data-target="#TutorialModal">Book</a></li>
+						<li><a data-scroll href="#testimonials">Testimonials</a></li>
+                        <li><a data-scroll href="#getintouch">Contact</a></li>
+                       
+                     </ul>
+                  </div>
+               </nav>
+               <div class="serch-bar">
+                  <div id="custom-search-input">
+                     <div class="input-group col-md-12">
+                        <input type="text" class="form-control input-lg" placeholder="Search" />
+                        <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div id="home" class="parallax first-section wow fadeIn" data-stellar-background-ratio="0.4" style="background-image:url('images/slider-bg.png');">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 col-sm-12">
+                  <div class="text-contant">
+                     <h2>
+                        <span class="center"><span class="icon"><img src="images/icon-logo.png" alt="#" /></span></span>
+                        <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to HR Life Care", "Healthy Live", "Favor Life!" ]'>
+                        <span class="wrap"></span>
+                        </a>
+                     </h2>
+                  </div>
+               </div>
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end section -->
+      <div id="time-table" class="time-table-section">
+         <div class="container">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+               <div class="row">
+                  <div class="service-time one" style="background:#2895f1;">
+                     <span class="info-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></span>
+                     <h3>Emergency Case</h3>
+                     <p>Equipped with qualified medical personnel as well as national standard medical equipment that is ready for 24 hours to handle emergency cases..</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+               <div class="row">
+                  <div class="service-time middle" style="background:#0071d1;">
+                     <span class="info-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span> 
+                     <h3>Working Hours</h3>
+                     <div class="time-table-section">
+                        <ul>
+                           <li><span class="left">Monday - Friday</span><span class="right">8.00 – 18.00</span></li>
+                           <li><span class="left">Saturday</span><span class="right">8.00 – 16.00</span></li>
+                           <li><span class="left">Sunday</span><span class="right">8.00 – 13.00</span></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+               <div class="row">
+                  <div class="service-time three" style="background:#0060b1;">
+                     <span class="info-icon"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                     <h3>Clinic Timetable</h3>
+                     <p> display all clinic activities and display the data</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="about" class="section wow fadeIn">
+         <div class="container">
+            <div class="heading">
+               <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+               <h2>The Specialist Clinic</h2>
+            </div>
+            <!-- end title -->
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="message-box">
+                     <h4>What We Do</h4>
+                     <h2>Clinic Service</h2>
+                     <p class="lead">
+                     Carry out health efforts in an efficient and effective manner by prioritizing recovery and recovery efforts which are carried out in harmony and integrated with efforts to increase and improve and improve referrals<!-- Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+                     <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.   --></p>
+                     <a href="#services" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>
+                  </div>
+                  <!-- end messagebox -->
+               </div>
+               <!-- end col -->
+               <div class="col-md-6">
+                  <div class="post-media wow fadeIn">
+                     <img src="images/about_03.jpg" alt="" class="img-responsive">
+                     <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
+                  </div>
+                  <!-- end media -->
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+            <hr class="hr1">
+            <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Digital Control Center</h3>
+                  </div>
+                  <!-- end service -->
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/clinic_02.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Hygienic Operating Room</h3>
+                  </div>
+                  <!-- end service -->
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/456.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/456.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Specialist Physicians</h3>
+                  </div>
+                  <!-- end service -->
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="service-widget">
+                     <div class="post-media wow fadeIn">
+                        <a href="images/123.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        <img src="images/123.jpg" alt="" class="img-responsive">
+                     </div>
+                     <h3>Good Infrastructure</h3>
+                  </div>
+                  <!-- end service -->
+               </div>
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <div id="service" class="services wow fadeIn">
+         <div class="container">
+            <div class="row">
+               
+               <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                  <div class="inner-services">
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="serv">
+                           <span class="icon-service"><img src="images/service-icon1.png" alt="#" /></span>
+                           <h4>PREMIUM FACILITIES</h4>
+                           <p>the tools used have high standards.</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="serv">
+                           <span class="icon-service"><img src="images/service-icon2.png" alt="#" /></span>
+                           <h4>LARGE LABORATORY</h4>
+                           <p>the laboratory used is large and complete tools.</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="serv">
+                           <span class="icon-service"><img src="images/service-icon3.png" alt="#" /></span>
+                           <h4>DETAILED SPECIALIST</h4>
+                           <p>available specialist doctors are the best doctors of the best.</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="serv">
+                           <span class="icon-service"><img src="images/service-icon4.png" alt="#" /></span>
+                           <h4>CHILDREN CARE CENTER</h4>
+                           <p>provide health services for children with friendly .</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="serv">
+                           <span class="icon-service"><img src="images/service-icon5.png" alt="#" /></span>
+                           <h4>FINE INFRASTRUCTURE</h4>
+                           <p>available infrastructure of very good quality.</p>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        <div class="serv">
+                           <span class="icon-service"><img src="images/service-icon6.png" alt="#" /></span>
+                           <h4>ANYTIME BLOOD BANK</h4>
+                           <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="appointment-form">
+                     <h3><span>+</span> Book Appointment</h3>
+                     <div class="form">
+
+                        <form name="userForm" action="index.html" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" ng-submit="submitForm(userForm.$valid)" novalidate>
+                           <fieldset>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                     <div class="form-group"  ng-class="{ 'has-error' : userForm.name.$invalid && !userForm.name.$pristine }">
+                                         <label> Name</label>
+                                         <label class="validation-error hide" ng-show="userForm.name.$invalid && !userForm.name.$pristine" id="fullNameValidationError">This field is required.</label>
+                                         <input  id="Name" type="text" name="Name" placeholder="Your Name"  class="form-control" ng-model="user.name" require>
+                                       </div>                                            
+                                 </div>
+                             </div>
+
+                             
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                  <div class="form-group">
+                                      <label> Email</label>
+                                      <input  id="Email"  required type="text" name="Name" placeholder="Your Email">
+                                  </div>
+                              </div>
+                          </div>
+
+                             <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="row">
+                                  <div class="form-group"  ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                                      <label> Email</label>
+                                      <label ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="help-block"></label>
+                                      <input  id="Email"  required type="email" name="email" placeholder="Your Email" class="form-control" ng-model="user.email"  required="@">
+                                  </div>
+                              </div>
+                          </div> -->
+
+                          <!-- space -->
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
+                           <div class="row">
+                               <div class="form-group">
+                                   <label> Day</label>
+                                       <select id="Day" type="text" name="Name" placeholder="Day">
+                                           <option>Day</option>
+                                           <option>Sunday</option>
+                                           <option>Monday</option>
+                                           <option>Tuesday</option>
+                                           <option>Wednesday</option>
+                                           <option>Thursday</option>
+                                           <option>Friday</option>
+                                       </select>
+                               </div>
+                                                 
+                           <!-- <input id="Day" type="text" name="Name" placeholder="Day"> -->
+
+                           <!-- space -->
+                               <div class="form-group">
+                                   <label> Time</label>
+                                   <select id="Time" type="text" name="Name" placeholder="Time">
+                                   <option>Time</option>
+                                   <option>AM</option>
+                                   <option>PM</option>
+                                   </select>
+                               </div>
+                           </div>                            
+                           <!-- <input id="Time" type="text" name="Name" placeholder="Time"> -->
+                       </div>
+
+                              <!-- space -->
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                     <div class="form-group">
+                                         <label> Doctor Name</label>
+                                         <select id="Doctor" type="text" name="Name" placeholder="Doctor Name">
+                                             <option>Doctor Name</option>
+                                             <option>dr.Lia Lastaria</option>
+                                             <option>dr.Ilma saraya</option>
+                                             <option>dr.Indah Kusuma</option>   
+                                         </select>
+                                     </div>
+                                 </div>
+                             </div>    
+
+
+                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">  
+                                      <label> Message</label>
+                                      <textarea id="Message" type="text" name="Name" placeholder="Message" cols="30" rows="10"></textarea>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <div class="center"><button type="submit" value="submit">Submit</button></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                           </fieldset>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <!-- bookapointmen -->
+               
+            </div>
+         </div>
+      </div>
+      <br>
+      <br>
+      <!-- end section -->
+      <div class="heading">
+      </div>
+      <div class="container">
+         <div class="center">
+            <table class="list" id="employeeList">
+               <thead>
+                  <tr>
+                     <th>Name</th>
+                     <th>Email</th>
+                     <th>Day</th>
+                     <th>Time</th>
+                     <th>Doctor</th>
+                     <th>Message</th>  
+                             
+                  </tr>
+               </thead>
+                  <tbody>
+
+                  </tbody>
+            </table>
+         </div>
+      </div>
+      <script src="scriptindex.js"></script>
+	  <!-- doctor -->
+	  
+	  <div id="doctors" class="parallax section db" data-stellar-background-ratio="0.4" style="background:#fff;" data-scroll-id="doctors" tabindex="-1">
+        <div class="container">
+		
+		<div class="heading">
+               <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+               <h2>The Specialist Clinic</h2>
+            </div>
+
+            <div class="row dev-list text-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <div class="widget clearfix">
+                        <img src="images/997.jpeg" alt="" class="img-responsive img-rounded">
+                        <div class="widget-title">
+                            <h3>dr.Lia Lastaria</h3>
+                            <small>Clinic Owner</small>
+                            <a href="images/997.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        </div>
+                        <!-- end title -->
+                        <p>Hello guys, I am dr.Lia Lastaria. I am senior art director and founder of Violetta.</p>
+
+                        <!--<div class="footer-social">
+                            <a href="#" class="btn grd1"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="btn grd1"><i class="fa fa-github"></i></a>
+                            <a href="#" class="btn grd1"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="btn grd1"><i class="fa fa-linkedin"></i></a>
+                        </div>-->
+                    </div><!--widget -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeIn;">
+                    <div class="widget clearfix">
+                        <img src="images/000.jpg" alt="" class="img-responsive img-rounded">
+                        <div class="widget-title">
+                            <h3>dr.Ilma Soraya</h3>
+                            <small>Internal Diseases</small>
+                            <a href="images/000.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        </div>
+                        <!-- end title -->
+                        <p>Hello guys, I am dr.Ilma Soraya. I am senior art director and founder of Violetta.</p>
+                    </div><!--widget -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow fadeIn">
+                    <div class="widget clearfix">
+                        <img src="images/999.jpg" alt="" class="img-responsive img-rounded">
+                        <div class="widget-title">
+                            <h3>dr.Indah Kusuma</h3>
+                            <small>Orthopedics Expert</small>
+                            <a href="images/999.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+                        </div>
+                        <!-- end title -->
+                        <p>Hello guys, I am dr.Indah Kusuma. I am senior art director and founder of Violetta.</p>
+                    </div><!--widget -->
+                </div><!-- end col -->
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div>
+	  
+	  
+	  <!-- end doctor section -->
+	  
+      <div id="testimonials" class="section wb wow fadeIn">
+         <div class="container">
+            <div class="heading">
+               <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+               <h2>Testimonials</h2>
+            </div>
+            <!-- end title -->
+            <div class="row">
+               <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div class="testimonial clearfix">
+                     <div class="desc">
+                        <h3><i class="fa fa-quote-left"></i> The amazing clinic! Wonderful Support!</h3>
+                        <p class="lead">Thank you for HRLifecare</p>
+                     </div>
+                     <div class="testi-meta">
+                        <img src="images/raul.jpg" alt="" class="img-responsive alignleft">
+                        <h4>Raudhiatul Ridwan<small>-Student of College</small></h4>
+                     </div>
+                     <!-- end testi-meta -->
+                  </div>
+                  <!-- end testimonial -->
+               </div>
+               <!-- end col -->
+               <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                  <div class="testimonial clearfix">
+                     <div class="desc">
+                        <h3><i class="fa fa-quote-left"></i> Thanks for Help us!</h3>
+                        <p class="lead">They Have Good Doctor and Good Facilities.</p>
+                     </div>
+                     <div class="testi-meta">
+                        <img src="images/111.jpg" alt="" class="img-responsive alignleft">
+                        <h4>Hudallil Muthaqin<small>- Student of College</small></h4>
+                     </div>
+                     <!-- end testi-meta -->
+                  </div>
+                  <!-- end testimonial -->
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+            <hr class="invis">
+            
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- end section -->
+      <div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
+         <div class="container">
+            <div class="heading">
+               <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+               <h2>Our Location</h2>
+            </div>
+         </div>
+        <!-- <div class="contact-section">
+            <div class="form-contant">
+               <form id="ajax-contact" action="assets/mailer.php" method="post">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="form-group in_name">
+                           <input type="text" class="form-control" placeholder="Name" required="required">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group in_email">
+                           <input type="email" class="form-control" placeholder="E-mail" required="required">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group in_email">
+                           <input type="tel" class="form-control" id="phone" placeholder="Phone" required="required">
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="form-group in_email">
+                           <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
+                        </div>
+                     </div>
+                     <div class="col-md-12">
+                        <div class="form-group in_message"> 
+                           <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
+                        </div>
+                        <div class="actions">
+                           <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn small" title="Submit Your Message!">
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div> -->
+            <!-- Disini akan di tambahkan Peta -->
+            <div id="map" style="width: 100%;height: 500px;"></div>
+         </div>
+      </div>
+      <footer id="footer" class="footer-area wow fadeIn">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="logo padding">
+                     <a href=""><img src="images/logo.png" alt=""></a>
+                    <!--  <p>Carry out health efforts in an efficient and effective manner by prioritizing recovery and recovery efforts which are carried out in harmony and integrated with efforts to increase and improve and improve referrals.</p> -->
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="footer-info padding">
+                     <h3>CONTACT US</h3>
+                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> Gedung Enginering Center FTUI Lantai 1 Kampus Baru UI Depok 16424
+</p>
+                     <p><i class="fa fa-paper-plane" aria-hidden="true"></i> info@HRLifecare.com</p>
+                     <p><i class="fa fa-phone" aria-hidden="true"></i>(021)-7884-9047</p>
+                  </div>
+               </div>
+               <!-- <div class="col-md-4">
+                  <div class="subcriber-info">
+                     <h3>SUBSCRIBE</h3>
+                     <p>Get healthy news, tip and solutions to your problems from our experts.</p>
+                     <div class="subcriber-box">
+                        <form id="mc-form" class="mc-form">
+                           <div class="newsletter-form">
+                              <input type="email" autocomplete="off" id="mc-email" placeholder="Email address" class="form-control" name="EMAIL">
+                              <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button> 
+                              <div class="clearfix"></div>
+                              mailchimp-alerts Start
+                              <div class="mailchimp-alerts">
+                                 <div class="mailchimp-submitting"></div>
+                                 <!-- mailchimp-submitting end -->
+                                 <div class="mailchimp-success"></div>
+                                 <!-- mailchimp-success end -->
+                                 <div class="mailchimp-error"></div>
+                                 <!-- mailchimp-error end -->
+                              </div>
+                              <!-- mailchimp-alerts end -->
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div> -->
+            </div>
+         </div>
+      </footer>
+      <div class="copyright-area wow fadeIn">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <div class="footer-text">
+                     <p>© 2020 HRLifecare.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="social">
+                     <ul class="social-links">
+                        <li><a href=""><i class="fa fa-rss"></i></a></li>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="modal" id="TutorialModal" tabindex="-1" role="dialog">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <!--  <div class="modal-body"> -->
+
+                  
+                  <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"> -->
+                  <div class="appointment-form">
+                     <h3><span>+</span> Book Appointment</h3>
+                     <div class="form">
+                        <form action="index.html">
+                           <fieldset>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <input type="text" id="name" placeholder="Your Name"  />
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <input type="email" placeholder="Email Address" id="email" required="@"/>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <select class="form-control">
+                                          <option>Day</option>
+                                          <option>Sunday</option>
+                                          <option>Monday</option>
+                                          <option>Tuesday</option>
+                                          <option>Wednesday</option>
+                                          <option>Thursday</option>
+                                          <option>Friday</option>
+                                       </select>
+                                    </div>
+                                    <div class="form-group">
+                                       <select class="form-control">
+                                          <option>Time</option>
+                                          <option>AM</option>
+                                          <option>PM</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <select class="form-control">
+                                          <option>Doctor Name</option>
+                                          <option>dr.Lia Lastaria</option>
+                                          <option>dr.Ilma saraya</option>
+                                          <option>dr.Indah Kusuma</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <textarea rows="4" id="textarea_message" class="form-control" placeholder="Your Message..."></textarea>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                 <div class="row">
+                                    <div class="form-group">
+                                       <div class="center"><button type="submit">Submit</button></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </fieldset>
+                        </form>
+                     </div>
+                  </div>
+               <!-- </div> -->
+
+               <!-- </div> -->
+            </div>
+         </div>
+      </div>
+
+      <!-- end copyrights -->
+      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <!-- all js files -->
+      <script src="js/all.js"></script>
+      <!-- all plugins -->
+      <script src="js/custom.js"></script>
+      <script src="js/jquery-2.1.1.min.js"></script> 
+      <script src="js/bootstrap.min.js"></script>
+      <script src="http://code.angularjsorg/1.2.6/angular.js"></script>
+      <!-- map -->
+      <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+      <script> 
+         // koordinat dan zoom view peta 
+         // Koordinat yang digunakan berupa latitude dan longitude, 
+         //sebagai contoh saya menggunakan Koordinat CCIT 
+         var map = L.map('map').setView([-6.362141, 106.824923], 17); 
+         // ini adalah copyright, bisa dicopot tapi lebih baik kita hargai sang penciptanya ya :) 
+         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', 
+         subdomains: ['a', 'b', 'c'], 
+         }).addTo(map); 
+         // ini adalah koordinat marker 
+         L.marker([-6.362141, 106.824923]).addTo(map) 
+         .bindPopup("<b>Selamat Datang!</b> Di CCIT FT-UI.").openPopup(); 
+         var popup = L.popup(); 
+         function onMapClick(e) { 
+         popup 
+         .setLatLng(e.latlng) 
+         .setContent("Koordinat pada titik ini adalah " + e.latlng.toString()) 
+         .openOn(map); 
+         }
+         map.on('click', onMapClick); 
+     </script>
+      <script> 
+      var validationApp = angular.module('validationApp', []); 
+      // create angular controller 
+         validationApp.controller('mainController', function ($scope) { 
+         // function to submit the form after all validation has occurred 
+            $scope.submitForm = function (isValid) { 
+            // check to make sure the form is completely valid 
+            if (isValid) { 
+               alert('Data Berhasil Disimpan'); 
+            } 
+         }; 
+      }); 
+      </script>
+   </body>
+</html>
